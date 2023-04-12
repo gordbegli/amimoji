@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'comicsans';
+    src: URL('comicssans.ttf') format('truetype');
+  }
+
+#snap {
+    width: 100%;
+    height: 3em;
+    font-size: 3em;
+}
+#download {
+    display: none;
+    color: white;
+}
+/* make the text look nice */
+html {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+#picture {
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#game-text {
+    font-family: comicsans;
+    color: white;
+    font-size: 1.5em;
+}
+
+#game-text:hover {  
+    text-decoration: underline;
+}
+
+#bio {
+    font-family: sans-serif;
+    color: black;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#bio-small {
+    font-family: sans-serif;
+    color: black;
+    font-size: 0.25em;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+/* if on mobile */
+@media screen and (max-width: 600px) {
+    /* make the webcam view invisible */
+    #webcam {
+        display: none;
+    }
+}
+
+/* set the background of the page to background.png tiled*/
+body {
+    background-image: url("background2.png");
+    background-repeat: repeat;
+}
